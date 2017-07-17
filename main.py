@@ -5,7 +5,8 @@ main entry point to app
 - can be run directly with Flask dev server
 '''
 
-from app import app
+from app import app, db
+import models
 import views
 
 if __name__ == '__main__':
